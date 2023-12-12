@@ -1,12 +1,12 @@
 addSubDomain({
-  description: 'The only Discord bot you need.',
+  description: 'Web Hosting.',
   domain: '1bt.uk',
-  subdomain: 'csmos',
+  subdomain: 'lh',
   owner: {
-    repo: 'https://github.com/CosmoticLabs/csmos-website',
-    email: 'realtcatech@gmail.com',
+    repo: 'https://github.com/LightHostingFree',
+    email: 'admin@lighthosting.eu.org',
   },
   record: {
-    CNAME: 'cname.vercel-dns.com'
+    NS: ['ns1.byet.org', 'ns2.byet.org', 'ns3.byet.org', 'ns4.byet.org', 'ns5.byet.org']
   },
 })
